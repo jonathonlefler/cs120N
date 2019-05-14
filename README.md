@@ -33,8 +33,8 @@ Choose java dev for EE
     * ___Don't create module.info___
 2. Right click your project folder and click "Properties". Go to the "Libraries" Tab and left click "Module Path". On the right, select "Add Library" and choose "User Library"
     * name it javafx
-    * include all of the jars in /path/to/javafx/lib
-         * Don't include the .src folder!
+    * include all of the .jar files in /path/to/javafx/lib
+         * Don't include anyother file type!
 3. Add the newely created libary to the projects module path
 4. In run configuration, found in the run taskbar, select the "Arguments" tab and add this to VM arguments:
       * `--module-path /usr/lib/jvm/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml`
