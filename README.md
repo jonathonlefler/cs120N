@@ -26,7 +26,7 @@ Choose java dev for EE
 ### When creating a project:
 1. Create a new java project
     * Be sure the jdk used for the project is jdk11
-    * ___dont create module.info___
+    * ___Don't create module.info___
 2. Right click your project folder and click "Properties". Go to the "Libraries" Tab and left click "Module Path". On the right, select "Add Library" and choose "User Library"
     * name it javafx
     * include all of the jars in /path/to/javafx/lib
