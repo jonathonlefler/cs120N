@@ -1,20 +1,29 @@
 ### Setup for javafx11, jdk11, and Eclipse on Ubuntu 18.04
 
-Install openjdk11 and javafx11
+Install openjdk11 and javafx11 SDK
 
-`sudo apt install openjdk-11-jdk openjfx`
+> `sudo apt install openjdk-11-jdk openjfx`
 
-[javafx](1)
+> [javafx](1)
 
 
-check java -version reads out the correct jdk version
+### Check `java -version` Reads Out the Correct jdk Version
 
-install the newest eclipse 2019-03 (4.11)
-https://www.eclipse.org/downloads/
+It should look like this:
+
+```none
+openjdk version "11.0.3" 2019-04-16
+OpenJDK Runtime Environment (build 11.0.3+7-Ubuntu-1ubuntu218.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.3+7-Ubuntu-1ubuntu218.04.1, mixed mode, sharing)
+```
+
+### Install the Newest Eclipse 2019-03 (4.11)
+
+> [Download link](2)
 
 Choose java dev for EE
 
-When creating a project:
+### When creating a project:
 1. Create a new java project
     * Be sure the jdk used for the project is jdk11
     * ___dont create module.info___
@@ -23,7 +32,8 @@ When creating a project:
     * include all of the jars in /path/to/javafx/lib
 3. Add the newely created libary to the projects module path
 4. In run configuration, found in the run taskbar, select the "Arguments" tab and add this to VM arguments:
-      *`--module-path /usr/lib/jvm/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml`
-      *Be sure the path to your javafx is correct!
+      * `--module-path /usr/lib/jvm/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml`
+      * Be sure the path to your javafx is correct!
 
 [1]:https://gluonhq.com/products/javafx/
+[2]:https://www.eclipse.org/downloads/
