@@ -3,7 +3,9 @@
 Install openjdk11 and javafx11
 
 `sudo apt install openjdk-11-jdk openjfx`
-https://gluonhq.com/products/javafx/
+
+[javafx](1)
+
 
 check java -version reads out the correct jdk version
 
@@ -20,4 +22,8 @@ When creating a project:
     * name it javafx
     * include all of the jars in /path/to/javafx/lib
 3. Add the newely created libary to the projects module path
-4. In run configuration, found in the run taskbar, select the "Arguments" tab and add this to VM arguments: `--module-path /usr/lib/jvm/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml`
+4. In run configuration, found in the run taskbar, select the "Arguments" tab and add this to VM arguments:
+      *`--module-path /usr/lib/jvm/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml`
+      *Be sure the path to your javafx is correct!
+
+[1]:https://gluonhq.com/products/javafx/
