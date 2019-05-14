@@ -4,12 +4,16 @@ Install openjdk11 and javafx11 SDK
 
 > `sudo apt install openjdk-11-jdk openjfx`
 
+Be sure to select the SDK version of javafx!
+
 > [javafx](1)
 
 
-### Check `java -version` Reads Out the Correct jdk Version
+### Check java Version Reads Out the Correct jdk Version
 
-It should look like this:
+> `java -version`
+
+The output should look like this:
 
 ```none
 openjdk version "11.0.3" 2019-04-16
