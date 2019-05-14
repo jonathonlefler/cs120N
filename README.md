@@ -12,7 +12,7 @@ https://www.eclipse.org/downloads/
 Choose java dev for EE
 
 When creating a project:
-1. dont create module.info
+1. ___dont create module.info___
 2. Create a new user library:
   - name it javafx
   - include all of the jars in /path/to/javafx/lib
