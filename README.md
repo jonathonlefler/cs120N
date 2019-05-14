@@ -25,7 +25,7 @@ OpenJDK 64-Bit Server VM (build 11.0.3+7-Ubuntu-1ubuntu218.04.1, mixed mode, sha
 
 > [Download link](2)
 
-Choose java dev for EE
+Choose java dev, the top option
 
 ### When creating a project:
 1. Create a new java project
