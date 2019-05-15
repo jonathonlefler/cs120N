@@ -82,6 +82,7 @@ Choose defualt options for the rest of the install process. Take note of your in
 
 1. Create a new java project
     * Be sure to use the jdk11 jre
+    * Don't create module.info
 2. Right click the project folder, and select "Properties"
 3. Select "Java Build Path"
 4. In the "Java Build Path" menu, left click "Modulepath" and select the "Add Library..." button
