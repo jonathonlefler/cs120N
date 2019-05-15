@@ -32,7 +32,9 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.3+12-LTS, mixed mode)
 ```
 If the version is 11, move on to step 4.
 
-Otherwise if the version is not 11, nothing prints out, or you get `'java' is not recognized`:
+If the version is not 11 refer to Step 1 uninstalaition
+
+If nothing prints out, or you get `'java' is not recognized`:
 
 1. Type "System" in the app search bar and open up the System app
 2. Click "Advanced system settings"
@@ -89,7 +91,7 @@ Choose defualt options for the rest of the install process. Take note of your in
 8. In the taskbar, click "Run" -> "Run Configurations..."
 9. Navigate to the "Arguments" tab
 10. In "VM arguments:" box, input:
-    * `--module-path "\path\to\javafx-sdk-12.0.1\lib" --add-modules javafx.controls,javafx.fxml`
+    * `--module-path "\path\to\javafx-sdk-11.0.3\lib" --add-modules javafx.controls,javafx.fxml`
     * Be sure the path to your jdk11 is correct!
 11. Click the "Close" button
 
