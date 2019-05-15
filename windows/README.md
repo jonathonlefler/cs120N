@@ -61,6 +61,21 @@ Choose the "Eclipse IDE for Java Developers" option when prompted.
 
 Choose defualt options for the rest of the install process. Take note of your instaliation directory.
 
+### Step 6: Configure Eclipse
+
+1. In the task bar, click "Windows" -> "Prefernces"
+2. In the left column, select "Java" -> "Build Path" -> "User Libraries"
+3. In the "User Libraries" menu, click the "New..." button
+4. Input "javafx11" for the "User library name"
+5. Left click the newely created library and slect the "Add External JARs..." button
+6. Navigate to your javafx11 install directory and go into the `lib` directory
+7. Select all of the executable jar files
+    * All files should be selected except the `src.zip` folder
+8. Click the "Open" button
+9. Click the "Apply and Close" button
+
+## Setup Done!
+
   [1]: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
   [2]: https://gluonhq.com/products/javafx/
   [3]: https://www.eclipse.org/downloads/
