@@ -1,6 +1,6 @@
-### Setup for javafx11, jdk11, and Eclipse on Ubuntu 18.04
+# Setup for javafx11, jdk11, and Eclipse on Ubuntu 18.04
 
-Install openjdk11 and javafx11 SDK
+### Install openjdk11 and javafx11 SDK
 
 > `sudo apt install openjdk-11-jdk openjfx`
 
