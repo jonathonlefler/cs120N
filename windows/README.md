@@ -76,6 +76,25 @@ Choose defualt options for the rest of the install process. Take note of your in
 
 ## Setup Done!
 
+# Creating a Basic javafx Application
+
+1. Create a new java project
+    * Be sure to use the jdk11 jre
+2. Right click the project folder, and select "Properties"
+3. Select "Java Build Path"
+4. In the "Java Build Path" menu, left click "Modulepath" and select the "Add Library..." button
+5. Select "User Library" and click the "Next >" button
+6. Check the javafx11 library you created and click the "Finish" button
+7. Click the "Apply and Close" button
+8. In the taskbar, click "Run" -> "Run Configurations..."
+9. Navigate to the "Arguments" tab
+10. In "VM arguments:" box, input:
+    * `--module-path "\path\to\javafx-sdk-12.0.1\lib" --add-modules javafx.controls,javafx.fxml`
+    * Be sure the path to your jdk11 is correct!
+11. Click the "Close" button
+
+## Creation Done!
+
   [1]: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
   [2]: https://gluonhq.com/products/javafx/
   [3]: https://www.eclipse.org/downloads/
